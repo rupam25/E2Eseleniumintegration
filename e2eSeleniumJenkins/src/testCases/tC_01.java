@@ -16,7 +16,7 @@ public void testcase1()throws InterruptedException  {
 	Thread.sleep(2000);
 	driver.findElement(By.id("pass")).sendKeys("asl@1234");
 	//Thread.sleep(5000);
-	//driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
+	driver.findElement(By.xpath("//*[@type=\"submit\"]")).click();
 	//Thread.sleep(2000);
 }
 
